@@ -1,0 +1,11 @@
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Starting Wayback Machine enumeration | domain=thales.com
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Querying Wayback Machine CDX API | params={'url': '*.thales.com', 'output': 'json', 'fl': 'original', 'collapse': 'urlkey', 'limit': 10000}
+2025-07-25 13:59:38 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Wayback Machine enumeration completed | found=13
+2025-07-25 13:59:38 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=wayback | error='WaybackMachineEnum' object has no attribute 'get_metrics'
+2025-07-25 13:59:38 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=2.978390693664551
+2025-07-25 13:59:38 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=8 | errors=1

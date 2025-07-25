@@ -1,0 +1,15 @@
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=github.com
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Starting Playwright enumeration | domain=github.com
+2025-07-25 12:10:25 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:github.com+-www.github.com&num=100&start=0
+2025-07-25 12:10:26 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=975044 | title=site:github.com -www.github.com - Recherche Google
+2025-07-25 12:10:29 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:github.com+-www.github.com&num=100&start=10
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=973979 | title=site:github.com -www.github.com - Recherche Google
+2025-07-25 12:10:30 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Possible blocking detected | indicator=captcha
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=6.511282920837402
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=12 | errors=0

@@ -1,0 +1,13 @@
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Starting enumeration | domain=thales.com
+2025-07-25 13:56:31 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Enumeration failed | error=generate_query() missing 1 required positional argument: 'subdomain'
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=wayback | found=0
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Starting enumeration | domain=thales.com
+2025-07-25 13:56:31 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Enumeration failed | error=generate_query() missing 1 required positional argument: 'subdomain'
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=threatcrowd | found=0
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=0.002012968063354492
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=12 | errors=2

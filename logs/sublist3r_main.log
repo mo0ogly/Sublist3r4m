@@ -1,0 +1,831 @@
+2025-07-25 08:42:54 | INFO     | TestSecurity | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 08:43:09 | INFO     | TestSecurity | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 08:43:09 | ERROR    | TestSecurity | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATTERN - Dangerous pattern in domain | event_type=DANGEROUS_PATTERN | domain=../etc/passwd | pattern=\.\.[/\\]
+2025-07-25 08:43:09 | ERROR    | TestSecurity | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATH - Dangerous pattern in path | event_type=DANGEROUS_PATH | path=../etc/passwd
+2025-07-25 08:45:15 | INFO     | TestSublist3r | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 08:45:15 | INFO     | TestSublist3r | _log_with_context:301 | Testing enhanced logger functionality
+2025-07-25 08:45:15 | WARNING  | TestSublist3r | _log_with_context:301 | This is a warning message
+2025-07-25 08:45:15 | DEBUG    | TestSublist3r | _log_with_context:301 | Debug message with detailed info
+2025-07-25 08:45:15 | ERROR    | TestSublist3r | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATH - Dangerous pattern in path | event_type=DANGEROUS_PATH | path=../etc/passwd
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 | SUCCESS: ✅ Sublist3r Enhanced - PASSED
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 | SUCCESS: ✅ Owner Research Engine - PASSED (score: 0.568)
+2025-07-25 09:06:13 | ERROR    | SystemTest | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATTERN - Dangerous pattern in domain | event_type=DANGEROUS_PATTERN | domain=../etc/passwd | pattern=\.\.[/\\]
+2025-07-25 09:06:13 | ERROR    | SystemTest | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATH - Dangerous pattern in path | event_type=DANGEROUS_PATH | path=domain;rm -rf /
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 | SUCCESS: ✅ Security Validation - PASSED
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 | SUCCESS: ✅ Multi-threading - PASSED
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 | SUCCESS: ✅ Export Functionality - PASSED
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 | SUCCESS: 🎯 All core components are functional and ready for production use\!
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 | ✨ Features verified:
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 |    • Advanced logging with colors and timestamps
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 |    • Security validation with injection prevention
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 |    • Fuzzy matching with multiple algorithms
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 |    • Multi-threading support
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 |    • Database caching with SQLite
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 |    • Export capabilities (JSON/CSV)
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 |    • Progress bars and modern UI elements
+2025-07-25 09:06:13 | INFO     | SystemTest | _log_with_context:301 |    • Session management and metrics tracking
+2025-07-25 09:14:18 | INFO     | TestDebug | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 09:14:18 | INFO     | TestDebug | _log_with_context:301 | Sublist3r Enhanced importé avec succès!
+2025-07-25 09:14:18 | ERROR    | TestDebug | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 09:14:18 | INFO     | TestDebug | _log_with_context:301 | SUCCESS: Validation domaine: False
+2025-07-25 09:23:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 09:23:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 09:23:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 09:23:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 09:23:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=example.com
+2025-07-25 09:23:31 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 09:23:31 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Main] Domain validation failed | domain=example.com | error=Domain is blocked for security reasons
+2025-07-25 09:23:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=5 | errors=2
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=example.com
+2025-07-25 11:54:15 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 11:54:15 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Main] Domain validation failed | domain=example.com | error=Domain is blocked for security reasons
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=5 | errors=2
+2025-07-25 11:54:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:54:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:54:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:54:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:54:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=google.com
+2025-07-25 11:54:44 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumerator initialized | domain=google.com | timeout=25
+2025-07-25 11:54:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=google.com
+2025-07-25 11:54:44 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=1 | error='domain'
+2025-07-25 11:54:46 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=2 | error='domain'
+2025-07-25 11:54:49 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=3 | error='domain'
+2025-07-25 11:54:53 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=4 | error='domain'
+2025-07-25 11:54:53 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] All request attempts failed | retries=3 | last_error='domain'
+2025-07-25 11:54:53 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 11:54:53 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 11:54:53 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=8.78644871711731
+2025-07-25 11:54:53 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=13 | errors=5
+2025-07-25 11:55:09 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:55:09 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:55:09 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:55:09 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:55:09 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=google.com
+2025-07-25 11:55:09 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumerator initialized | domain=google.com | timeout=25
+2025-07-25 11:55:09 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=google.com
+2025-07-25 11:55:09 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=1 | error='domain'
+2025-07-25 11:55:10 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=2 | error='domain'
+2025-07-25 11:55:12 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=3 | error='domain'
+2025-07-25 11:55:16 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=4 | error='domain'
+2025-07-25 11:55:16 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] All request attempts failed | retries=3 | last_error='domain'
+2025-07-25 11:55:16 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 11:55:16 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 11:55:16 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=7.929439306259155
+2025-07-25 11:55:16 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=13 | errors=5
+2025-07-25 11:55:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:55:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:55:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:55:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:55:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=thales.com
+2025-07-25 11:55:41 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumerator initialized | domain=thales.com | timeout=25
+2025-07-25 11:55:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=thales.com
+2025-07-25 11:55:41 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=1 | error='domain'
+2025-07-25 11:55:42 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=2 | error='domain'
+2025-07-25 11:55:44 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=3 | error='domain'
+2025-07-25 11:55:49 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=4 | error='domain'
+2025-07-25 11:55:49 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] All request attempts failed | retries=3 | last_error='domain'
+2025-07-25 11:55:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 11:55:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 11:55:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=8.212980508804321
+2025-07-25 11:55:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=13 | errors=5
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=thales.com
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=thales.com
+2025-07-25 11:57:58 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [Google] Possible blocking detected | indicator=robot
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=0.20277142524719238
+2025-07-25 11:57:58 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=8 | errors=0
+2025-07-25 11:58:20 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:58:20 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:58:20 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:58:20 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:58:20 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=example.com
+2025-07-25 11:58:20 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 11:58:20 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Main] Domain validation failed | domain=example.com | error=Domain is blocked for security reasons
+2025-07-25 11:58:20 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=5 | errors=2
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=github.com
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=github.com
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=0.0905005931854248
+2025-07-25 11:58:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=7 | errors=0
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=thales.com
+2025-07-25 11:59:07 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumerator initialized | domain=thales.com | timeout=25
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=thales.com
+2025-07-25 11:59:07 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Sending request | url=https://www.google.com/search?q=site:thales.com+-inurl:www&num=100&start=1 | attempt=1
+2025-07-25 11:59:07 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [Google] Possible blocking detected | indicator=bot
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=0.1015019416809082
+2025-07-25 11:59:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=10 | errors=0
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=microsoft.com
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=microsoft.com
+2025-07-25 12:00:07 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [Google] Possible blocking detected | indicator=bot
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=0.08060550689697266
+2025-07-25 12:00:07 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=8 | errors=0
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=microsoft.com
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Starting Playwright enumeration | domain=microsoft.com
+2025-07-25 12:07:00 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright not available
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=0.0019855499267578125
+2025-07-25 12:07:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=8 | errors=1
+2025-07-25 12:09:21 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:09:21 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:09:21 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:09:21 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:09:21 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=microsoft.com
+2025-07-25 12:09:21 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Starting Playwright enumeration | domain=microsoft.com
+2025-07-25 12:09:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 12:09:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:09:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=13.228790760040283
+2025-07-25 12:09:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=7 | errors=0
+2025-07-25 12:09:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:09:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:09:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:09:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:09:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=github.com
+2025-07-25 12:09:44 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Starting Playwright enumeration | domain=github.com
+2025-07-25 12:09:54 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 12:09:55 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:09:55 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=10.53309440612793
+2025-07-25 12:09:55 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=7 | errors=0
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=github.com
+2025-07-25 12:10:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Starting Playwright enumeration | domain=github.com
+2025-07-25 12:10:25 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:github.com+-www.github.com&num=100&start=0
+2025-07-25 12:10:26 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=975044 | title=site:github.com -www.github.com - Recherche Google
+2025-07-25 12:10:29 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:github.com+-www.github.com&num=100&start=10
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=973979 | title=site:github.com -www.github.com - Recherche Google
+2025-07-25 12:10:30 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Possible blocking detected | indicator=captcha
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=6.511282920837402
+2025-07-25 12:10:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=12 | errors=0
+2025-07-25 12:10:59 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:10:59 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:10:59 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:10:59 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:10:59 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=thales.com
+2025-07-25 12:10:59 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Enumerator initialized | domain=thales.com | timeout=25
+2025-07-25 12:10:59 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Starting Playwright enumeration | domain=thales.com
+2025-07-25 12:11:01 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:thales.com+-www.thales.com&num=100&start=0
+2025-07-25 12:11:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=302265 | title=site:thales.com -www.thales.com - Recherche Google
+2025-07-25 12:11:02 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Possible blocking detected | indicator=please try again
+2025-07-25 12:11:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 12:11:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:11:02 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumerator initialized | domain=thales.com | timeout=25
+2025-07-25 12:11:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=thales.com
+2025-07-25 12:11:02 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Sending request | url=https://www.google.com/search?q=site:thales.com+-inurl:www&num=100&start=1 | attempt=1
+2025-07-25 12:11:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 12:11:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google-simple | found=0
+2025-07-25 12:11:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=3.1877493858337402
+2025-07-25 12:11:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=16 | errors=0
+2025-07-25 12:11:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:11:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:11:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:11:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:11:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=microsoft.com
+2025-07-25 12:11:36 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 12:11:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Starting Playwright enumeration | domain=microsoft.com
+2025-07-25 12:11:37 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:microsoft.com+-www.microsoft.com&num=100&start=0
+2025-07-25 12:11:39 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=989503 | title=site:microsoft.com -www.microsoft.com - Recherche Google
+2025-07-25 12:11:43 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:microsoft.com+-www.microsoft.com&num=100&start=10
+2025-07-25 12:11:45 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=985548 | title=site:microsoft.com -www.microsoft.com - Recherche Google
+2025-07-25 12:11:48 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:microsoft.com+-www.microsoft.com&num=100&start=20
+2025-07-25 12:11:50 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=1183409 | title=site:microsoft.com -www.microsoft.com - Recherche Google
+2025-07-25 12:11:50 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 12:11:50 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:11:50 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 12:11:50 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=microsoft.com
+2025-07-25 12:11:50 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Sending request | url=https://www.google.com/search?q=site:microsoft.com+-inurl:www&num=100&start=1 | attempt=1
+2025-07-25 12:11:50 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 12:11:50 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google-simple | found=0
+2025-07-25 12:11:50 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=14.494821071624756
+2025-07-25 12:11:50 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=19 | errors=0
+2025-07-25 12:18:10 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:18:10 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:18:10 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:18:10 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:18:10 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=github.com
+2025-07-25 12:18:10 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=github.com
+2025-07-25 12:18:10 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:18:10 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.github.com&output=json
+2025-07-25 12:18:35 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificates processed | total_certs=922 | domains_found=98
+2025-07-25 12:18:35 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.{domain}&output=json | certificates=922 | new_domains=98
+2025-07-25 12:18:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:18:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=github.com&output=json
+2025-07-25 12:18:37 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=502
+2025-07-25 12:18:37 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:18:37 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:18:37 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.github.com&output=json
+2025-07-25 12:19:01 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.%.{domain}&output=json | certificates=920 | new_domains=0
+2025-07-25 12:19:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency enumeration completed | found=98
+2025-07-25 12:19:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=crt | found=98
+2025-07-25 12:19:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=98 | time_elapsed=51.28796863555908
+2025-07-25 12:19:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=98 | total_logs=18 | errors=0
+2025-07-25 12:19:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:19:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:19:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:19:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:19:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=microsoft.com
+2025-07-25 12:19:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=microsoft.com
+2025-07-25 12:19:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:19:24 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.microsoft.com&output=json
+2025-07-25 12:19:56 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:19:56 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:19:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:19:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=microsoft.com&output=json
+2025-07-25 12:20:26 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:20:26 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:20:26 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:20:26 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.microsoft.com&output=json
+2025-07-25 12:20:56 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:20:56 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:20:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency enumeration completed | found=0
+2025-07-25 12:20:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=crt | found=0
+2025-07-25 12:20:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=91.79519581794739
+2025-07-25 12:20:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=19 | errors=3
+2025-07-25 12:22:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:22:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:22:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:22:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:22:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=thales.com
+2025-07-25 12:22:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=thales.com
+2025-07-25 12:22:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:22:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.thales.com&output=json
+2025-07-25 12:22:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificates processed | total_certs=255 | domains_found=7
+2025-07-25 12:22:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.{domain}&output=json | certificates=255 | new_domains=7
+2025-07-25 12:22:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:22:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=thales.com&output=json
+2025-07-25 12:23:27 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:23:27 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:23:27 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:23:27 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.thales.com&output=json
+2025-07-25 12:23:27 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=502
+2025-07-25 12:23:27 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:23:27 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency enumeration completed | found=7
+2025-07-25 12:23:27 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=crt | found=7
+2025-07-25 12:23:27 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=7 | time_elapsed=45.98663687705994
+2025-07-25 12:23:27 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=7 | total_logs=19 | errors=1
+2025-07-25 12:27:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:27:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:27:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:27:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:27:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=thales.com
+2025-07-25 12:27:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=thales.com
+2025-07-25 12:27:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:27:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.thales.com&output=json
+2025-07-25 12:27:36 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=404
+2025-07-25 12:27:36 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:27:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:27:36 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=thales.com&output=json
+2025-07-25 12:27:40 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificates processed | total_certs=234 | domains_found=7
+2025-07-25 12:27:40 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Endpoint completed | endpoint=?q={domain}&output=json | certificates=234 | new_domains=7
+2025-07-25 12:27:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:27:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.thales.com&output=json
+2025-07-25 12:27:46 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.%.{domain}&output=json | certificates=161 | new_domains=0
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency enumeration completed | found=7
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=crt | found=7
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS BruteForce enumeration | domain=thales.com
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Using default wordlist | size=99
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Wordlist loaded | total_words=99 | valid_words=99
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS threads | threads=50 | wordlist_size=99
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=www.thales.com | ip=199.60.103.226
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=mail.thales.com | ip=172.217.20.179
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=ftp.thales.com | ip=199.60.103.107
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=help.thales.com | ip=199.60.103.226
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=portal.thales.com | ip=64.74.235.19
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=files.thales.com | ip=216.69.141.129
+2025-07-25 12:27:47 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=email.thales.com | ip=15.197.155.180
+2025-07-25 12:27:54 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS progress | completed=50 | total=99 | found=7
+2025-07-25 12:28:04 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS BruteForce enumeration completed | tested=99 | found=7
+2025-07-25 12:28:04 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=dns | found=7
+2025-07-25 12:28:04 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=12 | time_elapsed=34.904642820358276
+2025-07-25 12:28:04 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=12 | total_logs=32 | errors=0
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=microsoft.com
+2025-07-25 12:29:00 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Starting Playwright enumeration | domain=microsoft.com
+2025-07-25 12:29:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:microsoft.com+-www.microsoft.com&num=100&start=0
+2025-07-25 12:29:04 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=983632 | title=site:microsoft.com -www.microsoft.com - Recherche Google
+2025-07-25 12:29:08 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:microsoft.com+-www.microsoft.com&num=100&start=10
+2025-07-25 12:29:09 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=979601 | title=site:microsoft.com -www.microsoft.com - Recherche Google
+2025-07-25 12:29:12 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:microsoft.com+-www.microsoft.com&num=100&start=20
+2025-07-25 12:29:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=985292 | title=site:microsoft.com -www.microsoft.com - Recherche Google
+2025-07-25 12:29:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 12:29:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:29:13 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 12:29:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=microsoft.com
+2025-07-25 12:29:13 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Sending request | url=https://www.google.com/search?q=site:microsoft.com+-inurl:www&num=100&start=1 | attempt=1
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google-simple | found=0
+2025-07-25 12:29:14 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=microsoft.com
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.microsoft.com&output=json
+2025-07-25 12:29:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=503
+2025-07-25 12:29:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:29:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:29:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=microsoft.com&output=json
+2025-07-25 12:29:32 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=503
+2025-07-25 12:29:32 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:29:32 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:29:32 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.microsoft.com&output=json
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=503
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency enumeration completed | found=0
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=crt | found=0
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [SecurityTrails] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [SecurityTrails] Starting SecurityTrails enumeration | domain=microsoft.com
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [SecurityTrails] SecurityTrails skipped - no API key
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=securitytrails | found=0
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [VirusTotal] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [VirusTotal] Starting VirusTotal enumeration | domain=microsoft.com
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [VirusTotal] VirusTotal skipped - no API key
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=virustotal | found=0
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS BruteForce enumeration | domain=microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Using default wordlist | size=99
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Wordlist loaded | total_words=99 | valid_words=99
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS threads | threads=50 | wordlist_size=99
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=www.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=www.microsoft.com | ip=2.20.118.102
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=ftp.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=ftp.microsoft.com | ip=134.170.188.232
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=dev.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=dev.microsoft.com | ip=2.20.116.128
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=api.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=secure.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=shop.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=store.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=m.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=mobile.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=api.microsoft.com | ip=20.112.250.133
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=secure.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=shop.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=store.microsoft.com | ip=20.76.201.171
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=m.microsoft.com | ip=65.55.186.235
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=mobile.microsoft.com | ip=65.55.186.235
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=remote.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=remote.microsoft.com | ip=131.107.0.6
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=staging.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=staging.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=support.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=support.microsoft.com | ip=13.107.246.76
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=docs.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=demo.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=help.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=beta.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=docs.microsoft.com | ip=104.85.43.97
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=demo.microsoft.com | ip=20.70.246.20
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=help.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=beta.microsoft.com | ip=65.55.58.14
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=login.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=login.microsoft.com | ip=40.126.32.74
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=cloud.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=cloud.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=cdn.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=cdn.microsoft.com | ip=104.85.23.100
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=img.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=img.microsoft.com | ip=104.75.227.115
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=admin.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=portal.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=admin.microsoft.com | ip=13.107.6.156
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=portal.microsoft.com | ip=13.107.6.156
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=media.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=media.microsoft.com | ip=13.107.246.76
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=download.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=download.microsoft.com | ip=2.21.146.155
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=assets.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=assets.microsoft.com | ip=104.40.129.89
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=pop.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=smtp.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=pop.microsoft.com | ip=13.107.246.76
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=smtp.microsoft.com | ip=205.248.106.64
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=email.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=email.microsoft.com | ip=157.55.150.73
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=dns.microsoft.com
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=gateway.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=dns.microsoft.com | ip=20.112.250.133
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=gateway.microsoft.com | ip=131.107.16.142
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=mail1.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=mail1.microsoft.com | ip=131.107.115.212
+2025-07-25 12:29:34 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=mail2.microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=mail2.microsoft.com | ip=131.107.115.215
+2025-07-25 12:29:35 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=search.microsoft.com
+2025-07-25 12:29:35 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=search.microsoft.com | ip=92.122.166.121
+2025-07-25 12:29:40 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS progress | completed=50 | total=99 | found=33
+2025-07-25 12:29:41 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=source.microsoft.com
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=source.microsoft.com | ip=141.193.213.11
+2025-07-25 12:29:41 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=build.microsoft.com
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=build.microsoft.com | ip=20.119.8.36
+2025-07-25 12:29:41 | DEBUG    | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Subdomain added | subdomain=nexus.microsoft.com
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=nexus.microsoft.com | ip=20.15.133.131
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS BruteForce enumeration completed | tested=99 | found=36
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=dns | found=36
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=36 | time_elapsed=40.49948763847351
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=36 | total_logs=123 | errors=0
+2025-07-25 12:57:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:57:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:57:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:57:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:57:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=thales.com
+2025-07-25 12:57:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=thales.com
+2025-07-25 12:57:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:57:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.thales.com&output=json
+2025-07-25 12:57:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificates processed | total_certs=255 | domains_found=7
+2025-07-25 12:57:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.{domain}&output=json | certificates=255 | new_domains=7
+2025-07-25 12:57:16 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:57:16 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=thales.com&output=json
+2025-07-25 12:57:46 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:57:46 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:57:46 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:57:46 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.thales.com&output=json
+2025-07-25 12:57:48 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.%.{domain}&output=json | certificates=161 | new_domains=0
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency enumeration completed | found=7
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=crt | found=7
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS BruteForce enumeration | domain=thales.com
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Using default wordlist | size=99
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Wordlist loaded | total_words=99 | valid_words=99
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS threads | threads=50 | wordlist_size=99
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=www.thales.com | ip=199.60.103.30
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=mail.thales.com | ip=142.250.201.179
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=ftp.thales.com | ip=199.60.103.7
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=portal.thales.com | ip=64.74.235.19
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=help.thales.com | ip=199.60.103.226
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=files.thales.com | ip=216.69.141.129
+2025-07-25 12:57:49 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=email.thales.com | ip=15.197.155.180
+2025-07-25 12:57:50 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS progress | completed=50 | total=99 | found=7
+2025-07-25 12:57:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS BruteForce enumeration completed | tested=99 | found=7
+2025-07-25 12:57:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=dns | found=7
+2025-07-25 12:57:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [FileWriter] Writing 12 subdomains to TXT format | filename=thales_results.txt
+2025-07-25 12:57:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=12 | time_elapsed=42.63236951828003
+2025-07-25 12:57:56 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=12 | total_logs=33 | errors=1
+2025-07-25 13:02:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:02:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 13:02:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:02:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 13:02:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=thales.com
+2025-07-25 13:02:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=thales.com
+2025-07-25 13:02:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:02:57 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.thales.com&output=json
+2025-07-25 13:03:05 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificates processed | total_certs=255 | domains_found=7
+2025-07-25 13:03:05 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.{domain}&output=json | certificates=255 | new_domains=7
+2025-07-25 13:03:06 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:03:06 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=thales.com&output=json
+2025-07-25 13:03:30 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Endpoint completed | endpoint=?q={domain}&output=json | certificates=255 | new_domains=0
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.thales.com&output=json
+2025-07-25 13:03:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=502
+2025-07-25 13:03:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency enumeration completed | found=7
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=crt | found=7
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS BruteForce enumeration | domain=thales.com
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Using default wordlist | size=99
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Wordlist loaded | total_words=99 | valid_words=99
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS threads | threads=50 | wordlist_size=99
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=ftp.thales.com | ip=199.60.103.107
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=portal.thales.com | ip=64.74.235.19
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=www.thales.com | ip=199.60.103.30
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=help.thales.com | ip=199.60.103.30
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=mail.thales.com | ip=172.217.20.179
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=files.thales.com | ip=216.69.141.129
+2025-07-25 13:03:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=email.thales.com | ip=15.197.155.180
+2025-07-25 13:03:32 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS progress | completed=50 | total=99 | found=7
+2025-07-25 13:03:38 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS BruteForce enumeration completed | tested=99 | found=7
+2025-07-25 13:03:38 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=dns | found=7
+2025-07-25 13:03:38 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [FileWriter] Writing 12 subdomains to JSON format | filename=thales_complete.json
+2025-07-25 13:03:38 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=12 | time_elapsed=41.62779450416565
+2025-07-25 13:03:38 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=12 | total_logs=33 | errors=0
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Global utilities initialized
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Global utilities initialized
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=thales.com
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.thales.com&output=json
+2025-07-25 13:31:58 | ERROR    | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 13:31:58 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:31:58 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:31:58 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=thales.com&output=json
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=404
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.thales.com&output=json
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=502
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency enumeration completed | found=0
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Engine completed | engine=crt | found=0
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=44.82999920845032
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=19 | errors=1
+2025-07-25 13:39:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:39:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Global utilities initialized
+2025-07-25 13:39:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:39:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Global utilities initialized
+2025-07-25 13:39:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Starting JARVIS Intelligence | domain=microsoft.com
+2025-07-25 13:39:28 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 13:39:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=microsoft.com
+2025-07-25 13:39:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:39:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.microsoft.com&output=json
+2025-07-25 13:39:58 | ERROR    | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 13:39:58 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:39:58 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:39:58 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=microsoft.com&output=json
+2025-07-25 13:39:58 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=502
+2025-07-25 13:39:58 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:39:58 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:39:58 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.microsoft.com&output=json
+2025-07-25 13:39:59 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=502
+2025-07-25 13:39:59 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency enumeration completed | found=0
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Engine completed | engine=crt | found=0
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Enumerator initialized | domain=microsoft.com | timeout=25
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Starting DNS BruteForce enumeration | domain=microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Using default wordlist | size=99
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Wordlist loaded | total_words=99 | valid_words=99
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Starting DNS threads | threads=50 | wordlist_size=99
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=www.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=www.microsoft.com | ip=2.20.118.102
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=ftp.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=ftp.microsoft.com | ip=134.170.188.232
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=admin.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=admin.microsoft.com | ip=13.107.6.156
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=dev.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=dev.microsoft.com | ip=2.20.116.128
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=api.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=api.microsoft.com | ip=20.236.44.162
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=shop.microsoft.com
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=store.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=shop.microsoft.com | ip=20.76.201.171
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=store.microsoft.com | ip=20.76.201.171
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=mobile.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=mobile.microsoft.com | ip=65.55.186.235
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=remote.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=remote.microsoft.com | ip=131.107.0.6
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=m.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=m.microsoft.com | ip=65.55.186.235
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=staging.microsoft.com
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=secure.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=staging.microsoft.com | ip=20.231.239.246
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=secure.microsoft.com | ip=20.231.239.246
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=support.microsoft.com
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=demo.microsoft.com
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=help.microsoft.com
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=beta.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=support.microsoft.com | ip=13.107.253.42
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=demo.microsoft.com | ip=20.112.250.133
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=help.microsoft.com | ip=20.231.239.246
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=beta.microsoft.com | ip=65.55.58.14
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=portal.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=portal.microsoft.com | ip=13.107.6.156
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=docs.microsoft.com
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=login.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=login.microsoft.com | ip=20.190.159.23
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=docs.microsoft.com | ip=104.85.43.97
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=cloud.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=cloud.microsoft.com | ip=20.112.250.133
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=cdn.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=cdn.microsoft.com | ip=104.85.23.100
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=download.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=download.microsoft.com | ip=2.21.146.155
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=media.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=media.microsoft.com | ip=13.107.253.42
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=img.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=img.microsoft.com | ip=104.75.227.115
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=assets.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=assets.microsoft.com | ip=104.40.129.89
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=smtp.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=smtp.microsoft.com | ip=131.107.115.214
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=pop.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=pop.microsoft.com | ip=13.107.253.42
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=email.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=email.microsoft.com | ip=157.55.150.73
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=dns.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=dns.microsoft.com | ip=20.236.44.162
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=gateway.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=gateway.microsoft.com | ip=131.107.16.143
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=mail2.microsoft.com
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=mail1.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=mail2.microsoft.com | ip=131.107.115.215
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=mail1.microsoft.com | ip=131.107.115.212
+2025-07-25 13:39:59 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=search.microsoft.com
+2025-07-25 13:39:59 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=search.microsoft.com | ip=92.122.166.121
+2025-07-25 13:40:00 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS progress | completed=50 | total=99 | found=33
+2025-07-25 13:40:00 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=source.microsoft.com
+2025-07-25 13:40:00 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=source.microsoft.com | ip=141.193.213.11
+2025-07-25 13:40:00 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=build.microsoft.com
+2025-07-25 13:40:00 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=build.microsoft.com | ip=40.112.243.109
+2025-07-25 13:40:00 | DEBUG    | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Subdomain added | subdomain=nexus.microsoft.com
+2025-07-25 13:40:00 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=nexus.microsoft.com | ip=20.15.133.131
+2025-07-25 13:40:06 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS BruteForce enumeration completed | tested=99 | found=36
+2025-07-25 13:40:06 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Engine completed | engine=dns | found=36
+2025-07-25 13:40:06 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Enumeration completed successfully | total_found=36 | time_elapsed=37.68123650550842
+2025-07-25 13:40:06 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] SUCCESS: Session completed | subdomains_found=36 | total_logs=100 | errors=1
+2025-07-25 13:44:52 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:44:52 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Global utilities initialized
+2025-07-25 13:44:52 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:44:52 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Global utilities initialized
+2025-07-25 13:44:52 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:44:52 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=thales.com
+2025-07-25 13:44:52 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:44:52 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.thales.com&output=json
+2025-07-25 13:45:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificates processed | total_certs=255 | domains_found=7
+2025-07-25 13:45:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.{domain}&output=json | certificates=255 | new_domains=7
+2025-07-25 13:45:14 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:45:14 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=thales.com&output=json
+2025-07-25 13:45:44 | ERROR    | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 13:45:44 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:45:44 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:45:44 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.thales.com&output=json
+2025-07-25 13:46:03 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.%.{domain}&output=json | certificates=161 | new_domains=0
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency enumeration completed | found=7
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Engine completed | engine=crt | found=7
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Starting DNS BruteForce enumeration | domain=thales.com
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Using default wordlist | size=99
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Wordlist loaded | total_words=99 | valid_words=99
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] Starting DNS threads | threads=50 | wordlist_size=99
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=www.thales.com | ip=199.60.103.226
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=mail.thales.com | ip=142.250.201.179
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=ftp.thales.com | ip=199.60.103.7
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=help.thales.com | ip=199.60.103.30
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=portal.thales.com | ip=64.74.235.19
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=files.thales.com | ip=216.69.141.129
+2025-07-25 13:46:04 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS resolved | subdomain=email.thales.com | ip=76.223.17.250
+2025-07-25 13:46:05 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS progress | completed=50 | total=99 | found=7
+2025-07-25 13:46:11 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [DNSBruteForce] DNS BruteForce enumeration completed | tested=99 | found=7
+2025-07-25 13:46:11 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Engine completed | engine=dns | found=7
+2025-07-25 13:46:11 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [GooglePlaywright] Starting Playwright enumeration | domain=thales.com
+2025-07-25 13:46:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:thales.com+-www.thales.com&num=100&start=0
+2025-07-25 13:46:14 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [GooglePlaywright] Page loaded successfully | content_length=305199 | title=site:thales.com -www.thales.com - Recherche Google
+2025-07-25 13:46:14 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [GooglePlaywright] Possible blocking detected | indicator=please try again
+2025-07-25 13:46:14 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 13:46:14 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Engine completed | engine=google | found=0
+2025-07-25 13:46:14 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Enumeration completed successfully | total_found=12 | time_elapsed=82.07304835319519
+2025-07-25 13:46:14 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] SUCCESS: Session completed | subdomains_found=12 | total_logs=38 | errors=1
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:53:34 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Enumerator initialized | domain=thales.com | timeout=60
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=thales.com
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.thales.com&output=json
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] API error | status_code=404
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:53:41 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:53:41 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=thales.com&output=json
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] API error | status_code=404
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:53:41 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:53:41 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.thales.com&output=json
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Subdomain added | subdomain=www.thales.com
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificate found | subdomain=www.thales.com | issuer=C=US, O=Google Trust Services, CN=WE1 | valid_from=2025-06-25T13:19:59 | valid_to=2025-09-23T14:19:57
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Subdomain added | subdomain=harvestdr.thales.com
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificate found | subdomain=harvestdr.thales.com | issuer=C=GB, ST=Greater Manchester, L=Salford, O=Sectigo  | valid_from=2025-05-01T00:00:00 | valid_to=2026-03-15T23:59:59
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Subdomain added | subdomain=harvest.thales.com
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificate found | subdomain=harvest.thales.com | issuer=C=GB, ST=Greater Manchester, L=Salford, O=Sectigo  | valid_from=2025-05-01T00:00:00 | valid_to=2026-03-15T23:59:59
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Subdomain added | subdomain=harvestm1dr.thales.com
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificate found | subdomain=harvestm1dr.thales.com | issuer=C=GB, ST=Greater Manchester, L=Salford, O=Sectigo  | valid_from=2024-06-26T00:00:00 | valid_to=2025-07-27T23:59:59
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Subdomain added | subdomain=harvestm1.thales.com
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificate found | subdomain=harvestm1.thales.com | issuer=C=GB, ST=Greater Manchester, L=Salford, O=Sectigo  | valid_from=2024-06-26T00:00:00 | valid_to=2025-07-27T23:59:59
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Subdomain added | subdomain=help.thales.com
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificate found | subdomain=help.thales.com | issuer=C=US, O=Google Trust Services LLC, CN=GTS CA 1P5 | valid_from=2023-09-15T01:31:36 | valid_to=2023-12-14T01:31:35
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Subdomain added | subdomain=www.help.thales.com
+2025-07-25 13:53:48 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificate found | subdomain=www.help.thales.com | issuer=C=US, ST=CA, L=San Francisco, O="CloudFlare, Inc." | valid_from=2019-12-18T00:00:00 | valid_to=2020-10-09T12:00:00
+2025-07-25 13:53:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificates processed | total_certs=161 | domains_found=7
+2025-07-25 13:53:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.%.{domain}&output=json | certificates=161 | new_domains=7
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificate Transparency enumeration completed | found=7
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=crt | found=7
+2025-07-25 13:53:49 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Enumerator initialized | domain=thales.com | timeout=60
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Starting DNS BruteForce enumeration | domain=thales.com
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Using default wordlist | size=99
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Wordlist loaded | total_words=99 | valid_words=99
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Starting DNS threads | threads=50 | wordlist_size=99
+2025-07-25 13:53:49 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Subdomain added | subdomain=ftp.thales.com
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=ftp.thales.com | ip=199.60.103.7
+2025-07-25 13:53:49 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Subdomain added | subdomain=portal.thales.com
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=portal.thales.com | ip=64.74.235.19
+2025-07-25 13:53:49 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Subdomain added | subdomain=help.thales.com
+2025-07-25 13:53:49 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Subdomain added | subdomain=www.thales.com
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=help.thales.com | ip=199.60.103.30
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=www.thales.com | ip=199.60.103.30
+2025-07-25 13:53:49 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Subdomain added | subdomain=mail.thales.com
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=mail.thales.com | ip=172.217.20.179
+2025-07-25 13:53:50 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Subdomain added | subdomain=files.thales.com
+2025-07-25 13:53:50 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=files.thales.com | ip=216.69.141.129
+2025-07-25 13:53:50 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Subdomain added | subdomain=email.thales.com
+2025-07-25 13:53:50 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=email.thales.com | ip=76.223.17.250
+2025-07-25 13:53:51 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS progress | completed=50 | total=99 | found=7
+2025-07-25 13:53:57 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS BruteForce enumeration completed | tested=99 | found=7
+2025-07-25 13:53:57 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=dns | found=7
+2025-07-25 13:53:57 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Enumerator initialized | domain=thales.com | timeout=60
+2025-07-25 13:53:57 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Starting Playwright enumeration | domain=thales.com
+2025-07-25 13:53:58 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:thales.com+-www.thales.com&num=100&start=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Page loaded successfully | content_length=306958 | title=site:thales.com -www.thales.com - Recherche Google
+2025-07-25 13:54:00 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Possible blocking detected | indicator=please try again
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=google | found=0
+2025-07-25 13:54:00 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Enumerator initialized | domain=thales.com | timeout=60
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Starting enumeration | domain=thales.com
+2025-07-25 13:54:00 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Enumeration failed | error=generate_query must be implemented by subclass
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=wayback | found=0
+2025-07-25 13:54:00 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Enumerator initialized | domain=thales.com | timeout=60
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Starting enumeration | domain=thales.com
+2025-07-25 13:54:00 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Enumeration failed | error=generate_query must be implemented by subclass
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=threatcrowd | found=0
+2025-07-25 13:54:00 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [VirusTotal] Enumerator initialized | domain=thales.com | timeout=60
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [VirusTotal] Starting VirusTotal enumeration | domain=thales.com
+2025-07-25 13:54:00 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [VirusTotal] VirusTotal skipped - no API key
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=virustotal | found=0
+2025-07-25 13:54:00 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [SecurityTrails] Enumerator initialized | domain=thales.com | timeout=60
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [SecurityTrails] Starting SecurityTrails enumeration | domain=thales.com
+2025-07-25 13:54:00 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [SecurityTrails] SecurityTrails skipped - no API key
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=securitytrails | found=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=12 | time_elapsed=25.34010624885559
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=12 | total_logs=79 | errors=2
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:56:31 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Enumerator initialized | domain=thales.com | timeout=25
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Starting enumeration | domain=thales.com
+2025-07-25 13:56:31 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Enumeration failed | error=generate_query() missing 1 required positional argument: 'subdomain'
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=wayback | found=0
+2025-07-25 13:56:31 | DEBUG    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Enumerator initialized | domain=thales.com | timeout=25
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Starting enumeration | domain=thales.com
+2025-07-25 13:56:31 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Enumeration failed | error=generate_query() missing 1 required positional argument: 'subdomain'
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=threatcrowd | found=0
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=0.002012968063354492
+2025-07-25 13:56:31 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=12 | errors=2
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:57:48 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=wayback | error='WaybackMachineEnum' object has no attribute 'enumerate'
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=0.00012373924255371094
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=5 | errors=1
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Starting Wayback Machine enumeration | domain=thales.com
+2025-07-25 13:59:35 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Querying Wayback Machine CDX API | params={'url': '*.thales.com', 'output': 'json', 'fl': 'original', 'collapse': 'urlkey', 'limit': 10000}
+2025-07-25 13:59:38 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Wayback Machine enumeration completed | found=13
+2025-07-25 13:59:38 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=wayback | error='WaybackMachineEnum' object has no attribute 'get_metrics'
+2025-07-25 13:59:38 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=2.978390693664551
+2025-07-25 13:59:38 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=8 | errors=1
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Starting Wayback Machine enumeration | domain=thales.com
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Querying Wayback Machine CDX API | params={'url': '*.thales.com', 'output': 'json', 'fl': 'original', 'collapse': 'urlkey', 'limit': 10000}
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Wayback Machine enumeration completed | found=13
+2025-07-25 14:00:44 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=wayback | error='WaybackMachineEnum' object has no attribute 'metrics'
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Starting ThreatCrowd enumeration | domain=thales.com
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Querying ThreatCrowd API | domain=thales.com
+2025-07-25 14:00:44 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] ThreatCrowd request failed | error=HTTPSConnectionPool(host='threatcrowd.org', port=443): Max retries exceeded with url: /searchApi/v2/domain/report/?domain=thales.com (Caused by SSLError(CertificateError("hostname 'threatcrowd.org' doesn't match '*.otxb.io'")))
+2025-07-25 14:00:44 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] No valid data from ThreatCrowd | response=None
+2025-07-25 14:00:44 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=threatcrowd | error='ThreatCrowdEnum' object has no attribute 'metrics'
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=13 | time_elapsed=2.4157986640930176
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=13 | total_logs=13 | errors=3

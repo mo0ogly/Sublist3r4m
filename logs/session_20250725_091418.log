@@ -1,0 +1,4 @@
+2025-07-25 09:14:18 | INFO     | TestDebug | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 09:14:18 | INFO     | TestDebug | _log_with_context:301 | Sublist3r Enhanced importé avec succès!
+2025-07-25 09:14:18 | ERROR    | TestDebug | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 09:14:18 | INFO     | TestDebug | _log_with_context:301 | SUCCESS: Validation domaine: False

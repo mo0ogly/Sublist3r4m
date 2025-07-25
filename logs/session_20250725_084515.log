@@ -1,0 +1,4 @@
+2025-07-25 08:45:15 | INFO     | TestSublist3r | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 08:45:15 | INFO     | TestSublist3r | _log_with_context:301 | Testing enhanced logger functionality
+2025-07-25 08:45:15 | WARNING  | TestSublist3r | _log_with_context:301 | This is a warning message
+2025-07-25 08:45:15 | ERROR    | TestSublist3r | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATH - Dangerous pattern in path | event_type=DANGEROUS_PATH | path=../etc/passwd

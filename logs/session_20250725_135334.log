@@ -1,0 +1,54 @@
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=thales.com
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:53:34 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.thales.com&output=json
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] API error | status_code=404
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:53:41 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:53:41 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=thales.com&output=json
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] API error | status_code=404
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:53:41 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:53:41 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.thales.com&output=json
+2025-07-25 13:53:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificates processed | total_certs=161 | domains_found=7
+2025-07-25 13:53:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Endpoint completed | endpoint=?q=%.%.{domain}&output=json | certificates=161 | new_domains=7
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] Certificate Transparency enumeration completed | found=7
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=crt | found=7
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Starting DNS BruteForce enumeration | domain=thales.com
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Using default wordlist | size=99
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Wordlist loaded | total_words=99 | valid_words=99
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] Starting DNS threads | threads=50 | wordlist_size=99
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=ftp.thales.com | ip=199.60.103.7
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=portal.thales.com | ip=64.74.235.19
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=help.thales.com | ip=199.60.103.30
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=www.thales.com | ip=199.60.103.30
+2025-07-25 13:53:49 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=mail.thales.com | ip=172.217.20.179
+2025-07-25 13:53:50 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=files.thales.com | ip=216.69.141.129
+2025-07-25 13:53:50 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS resolved | subdomain=email.thales.com | ip=76.223.17.250
+2025-07-25 13:53:51 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS progress | completed=50 | total=99 | found=7
+2025-07-25 13:53:57 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [DNSBruteForce] DNS BruteForce enumeration completed | tested=99 | found=7
+2025-07-25 13:53:57 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=dns | found=7
+2025-07-25 13:53:57 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Starting Playwright enumeration | domain=thales.com
+2025-07-25 13:53:58 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:thales.com+-www.thales.com&num=100&start=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Page loaded successfully | content_length=306958 | title=site:thales.com -www.thales.com - Recherche Google
+2025-07-25 13:54:00 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Possible blocking detected | indicator=please try again
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=google | found=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Starting enumeration | domain=thales.com
+2025-07-25 13:54:00 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Enumeration failed | error=generate_query must be implemented by subclass
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=wayback | found=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Starting enumeration | domain=thales.com
+2025-07-25 13:54:00 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Enumeration failed | error=generate_query must be implemented by subclass
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=threatcrowd | found=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [VirusTotal] Starting VirusTotal enumeration | domain=thales.com
+2025-07-25 13:54:00 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [VirusTotal] VirusTotal skipped - no API key
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=virustotal | found=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [SecurityTrails] Starting SecurityTrails enumeration | domain=thales.com
+2025-07-25 13:54:00 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [SecurityTrails] SecurityTrails skipped - no API key
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine completed | engine=securitytrails | found=0
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=12 | time_elapsed=25.34010624885559
+2025-07-25 13:54:00 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=12 | total_logs=79 | errors=2

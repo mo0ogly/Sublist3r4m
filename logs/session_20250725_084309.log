@@ -1,0 +1,3 @@
+2025-07-25 08:43:09 | INFO     | TestSecurity | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 08:43:09 | ERROR    | TestSecurity | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATTERN - Dangerous pattern in domain | event_type=DANGEROUS_PATTERN | domain=../etc/passwd | pattern=\.\.[/\\]
+2025-07-25 08:43:09 | ERROR    | TestSecurity | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATH - Dangerous pattern in path | event_type=DANGEROUS_PATH | path=../etc/passwd

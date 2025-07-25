@@ -1,0 +1,123 @@
+# Jeux de tests - Domaines pour analyse
+# Format: domaine (un par ligne)
+# Ces domaines seront utilisés pour les tests de recherche de propriétaires
+
+# === TECH GIANTS ===
+google.com
+microsoft.com
+apple.com
+amazon.com
+meta.com
+netflix.com
+tesla.com
+nvidia.com
+oracle.com
+salesforce.com
+
+# === SOCIAL MEDIA ===
+twitter.com
+instagram.com
+linkedin.com
+snapchat.com
+tiktok.com
+discord.com
+reddit.com
+pinterest.com
+youtube.com
+whatsapp.com
+
+# === E-COMMERCE ===
+ebay.com
+alibaba.com
+shopify.com
+paypal.com
+stripe.com
+square.com
+etsy.com
+walmart.com
+target.com
+costco.com
+
+# === CLOUD PROVIDERS ===
+aws.amazon.com
+azure.microsoft.com
+cloud.google.com
+digitalocean.com
+linode.com
+vultr.com
+heroku.com
+cloudflare.com
+fastly.com
+akamai.com
+
+# === BANKS & FINANCE ===
+chase.com
+bankofamerica.com
+wellsfargo.com
+citibank.com
+goldmansachs.com
+jpmorgan.com
+hsbc.com
+americanexpress.com
+visa.com
+mastercard.com
+
+# === NEWS & MEDIA ===
+cnn.com
+bbc.com
+nytimes.com
+washingtonpost.com
+reuters.com
+bloomberg.com
+forbes.com
+techcrunch.com
+wired.com
+theverge.com
+
+# === EDUCATION ===
+harvard.edu
+mit.edu
+stanford.edu
+berkeley.edu
+yale.edu
+princeton.edu
+oxford.ac.uk
+cambridge.ac.uk
+sorbonne.fr
+ethz.ch
+
+# === GOVERNMENT ===
+whitehouse.gov
+fbi.gov
+cia.gov
+nasa.gov
+cdc.gov
+irs.gov
+sec.gov
+fcc.gov
+fda.gov
+epa.gov
+
+# === GAMING ===
+ea.com
+activision.com
+blizzard.com
+valve.com
+steam.com
+epic.com
+ubisoft.com
+nintendo.com
+sony.com
+xbox.com
+
+# === STARTUPS & UNICORNS ===
+uber.com
+lyft.com
+airbnb.com
+spotify.com
+zoom.com
+slack.com
+notion.so
+figma.com
+canva.com
+dropbox.com

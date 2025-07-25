@@ -1,0 +1,16 @@
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Starting Wayback Machine enumeration | domain=thales.com
+2025-07-25 14:00:42 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Querying Wayback Machine CDX API | params={'url': '*.thales.com', 'output': 'json', 'fl': 'original', 'collapse': 'urlkey', 'limit': 10000}
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Wayback Machine enumeration completed | found=13
+2025-07-25 14:00:44 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=wayback | error='WaybackMachineEnum' object has no attribute 'metrics'
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Starting ThreatCrowd enumeration | domain=thales.com
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Querying ThreatCrowd API | domain=thales.com
+2025-07-25 14:00:44 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] ThreatCrowd request failed | error=HTTPSConnectionPool(host='threatcrowd.org', port=443): Max retries exceeded with url: /searchApi/v2/domain/report/?domain=thales.com (Caused by SSLError(CertificateError("hostname 'threatcrowd.org' doesn't match '*.otxb.io'")))
+2025-07-25 14:00:44 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] No valid data from ThreatCrowd | response=None
+2025-07-25 14:00:44 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=threatcrowd | error='ThreatCrowdEnum' object has no attribute 'metrics'
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=13 | time_elapsed=2.4157986640930176
+2025-07-25 14:00:44 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=13 | total_logs=13 | errors=3

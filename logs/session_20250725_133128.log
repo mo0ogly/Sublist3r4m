@@ -1,0 +1,22 @@
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Global utilities initialized
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Global utilities initialized
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=thales.com
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:31:28 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.thales.com&output=json
+2025-07-25 13:31:58 | ERROR    | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 13:31:58 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:31:58 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:31:58 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=thales.com&output=json
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=404
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.thales.com&output=json
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=502
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency enumeration completed | found=0
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Engine completed | engine=crt | found=0
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=44.82999920845032
+2025-07-25 13:32:13 | INFO     | JARVIS_Intelligence | _log_with_context:326 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=19 | errors=1

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "timestamp": "2025-07-25T13:03:38.661390",
+    "total_subdomains": 12,
+    "tool": "Sublist3r Enhanced v2.1",
+    "format_version": "1.0",
+    "target_domain": "thales.com",
+    "enumeration_time": "2025-07-25T13:03:38.661183",
+    "search_results": 12,
+    "bruteforce_results": 0,
+    "engines_used": [
+      "crt",
+      "dns"
+    ],
+    "tool_version": "Sublist3r Enhanced v2.1"
+  },
+  "subdomains": [
+    {
+      "domain": "www.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661404",
+      "status": "active"
+    },
+    {
+      "domain": "email.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661409",
+      "status": "active"
+    },
+    {
+      "domain": "files.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661412",
+      "status": "active"
+    },
+    {
+      "domain": "ftp.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661416",
+      "status": "active"
+    },
+    {
+      "domain": "harvest.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661419",
+      "status": "active"
+    },
+    {
+      "domain": "harvestdr.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661423",
+      "status": "active"
+    },
+    {
+      "domain": "harvestm1.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661427",
+      "status": "active"
+    },
+    {
+      "domain": "harvestm1dr.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661430",
+      "status": "active"
+    },
+    {
+      "domain": "www.help.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661434",
+      "status": "active"
+    },
+    {
+      "domain": "help.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661437",
+      "status": "active"
+    },
+    {
+      "domain": "mail.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661441",
+      "status": "active"
+    },
+    {
+      "domain": "portal.thales.com",
+      "discovered_at": "2025-07-25T13:03:38.661444",
+      "status": "active"
+    }
+  ]
+}

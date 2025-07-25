@@ -23,7 +23,7 @@ import dns.resolver
 import requests
 
 # Python 2.x and 3.x compatiablity
-if sys.version > '3':
+if sys.version_info[0] == 3:
     import urllib.parse as urlparse
     import urllib.parse as urllib
 else:
@@ -300,7 +300,7 @@ class GoogleEnum(enumratorBaseThreaded):
         return links_list
 
     def check_response_errors(self, resp):
-        if (type(resp) is str or type(resp) is unicode) and 'Our systems have detected unusual traffic' in resp:
+        if (type(resp) is str or (sys.version_info[0] == 2 and type(resp) is unicode)) and 'Our systems have detected unusual traffic' in resp:
             self.print_(R + "[!] Error: Google probably now is blocking our requests" + W)
             self.print_(R + "[~] Finished now the Google Enumeration ..." + W)
             return False

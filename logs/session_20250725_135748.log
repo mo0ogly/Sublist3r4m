@@ -1,0 +1,8 @@
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Global utilities initialized
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Starting JARVIS Intelligence | domain=thales.com
+2025-07-25 13:57:48 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=wayback | error='WaybackMachineEnum' object has no attribute 'enumerate'
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] Enumeration completed successfully | total_found=0 | time_elapsed=0.00012373924255371094
+2025-07-25 13:57:48 | INFO     | JARVIS_Intelligence | _log_with_context:391 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=5 | errors=1

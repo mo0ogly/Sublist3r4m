@@ -1,0 +1,12 @@
+www.thales.com
+email.thales.com
+files.thales.com
+ftp.thales.com
+harvest.thales.com
+harvestdr.thales.com
+harvestm1.thales.com
+harvestm1dr.thales.com
+www.help.thales.com
+help.thales.com
+mail.thales.com
+portal.thales.com

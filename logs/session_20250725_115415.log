@@ -1,0 +1,8 @@
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=example.com
+2025-07-25 11:54:15 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 11:54:15 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Main] Domain validation failed | domain=example.com | error=Domain is blocked for security reasons
+2025-07-25 11:54:15 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=0 | total_logs=5 | errors=2

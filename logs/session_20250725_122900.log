@@ -1,0 +1,83 @@
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [EnhancedLogger] Enhanced Logger initialized successfully
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Global utilities initialized
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Starting Sublist3r Enhanced | domain=microsoft.com
+2025-07-25 12:29:00 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Starting Playwright enumeration | domain=microsoft.com
+2025-07-25 12:29:02 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:microsoft.com+-www.microsoft.com&num=100&start=0
+2025-07-25 12:29:04 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=983632 | title=site:microsoft.com -www.microsoft.com - Recherche Google
+2025-07-25 12:29:08 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:microsoft.com+-www.microsoft.com&num=100&start=10
+2025-07-25 12:29:09 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=979601 | title=site:microsoft.com -www.microsoft.com - Recherche Google
+2025-07-25 12:29:12 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Navigating to URL | url=https://www.google.com/search?q=site:microsoft.com+-www.microsoft.com&num=100&start=20
+2025-07-25 12:29:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Page loaded successfully | content_length=985292 | title=site:microsoft.com -www.microsoft.com - Recherche Google
+2025-07-25 12:29:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright enumeration completed | found=0
+2025-07-25 12:29:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google | found=0
+2025-07-25 12:29:13 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Starting enumeration | domain=microsoft.com
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Google] Enumeration completed | found=0
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=google-simple | found=0
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Starting Certificate Transparency enumeration | domain=microsoft.com
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:29:14 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.microsoft.com&output=json
+2025-07-25 12:29:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=503
+2025-07-25 12:29:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:29:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:29:31 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=microsoft.com&output=json
+2025-07-25 12:29:32 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=503
+2025-07-25 12:29:32 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:29:32 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:29:32 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Querying Certificate Transparency | url=https://crt.sh/?q=%.%.microsoft.com&output=json
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=503
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency enumeration completed | found=0
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=crt | found=0
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [SecurityTrails] Starting SecurityTrails enumeration | domain=microsoft.com
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [SecurityTrails] SecurityTrails skipped - no API key
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=securitytrails | found=0
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [VirusTotal] Starting VirusTotal enumeration | domain=microsoft.com
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [VirusTotal] VirusTotal skipped - no API key
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=virustotal | found=0
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS BruteForce enumeration | domain=microsoft.com
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Using default wordlist | size=99
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Wordlist loaded | total_words=99 | valid_words=99
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] Starting DNS threads | threads=50 | wordlist_size=99
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=www.microsoft.com | ip=2.20.118.102
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=ftp.microsoft.com | ip=134.170.188.232
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=dev.microsoft.com | ip=2.20.116.128
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=api.microsoft.com | ip=20.112.250.133
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=secure.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=shop.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=store.microsoft.com | ip=20.76.201.171
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=m.microsoft.com | ip=65.55.186.235
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=mobile.microsoft.com | ip=65.55.186.235
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=remote.microsoft.com | ip=131.107.0.6
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=staging.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=support.microsoft.com | ip=13.107.246.76
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=docs.microsoft.com | ip=104.85.43.97
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=demo.microsoft.com | ip=20.70.246.20
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=help.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=beta.microsoft.com | ip=65.55.58.14
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=login.microsoft.com | ip=40.126.32.74
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=cloud.microsoft.com | ip=20.236.44.162
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=cdn.microsoft.com | ip=104.85.23.100
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=img.microsoft.com | ip=104.75.227.115
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=admin.microsoft.com | ip=13.107.6.156
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=portal.microsoft.com | ip=13.107.6.156
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=media.microsoft.com | ip=13.107.246.76
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=download.microsoft.com | ip=2.21.146.155
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=assets.microsoft.com | ip=104.40.129.89
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=pop.microsoft.com | ip=13.107.246.76
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=smtp.microsoft.com | ip=205.248.106.64
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=email.microsoft.com | ip=157.55.150.73
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=dns.microsoft.com | ip=20.112.250.133
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=gateway.microsoft.com | ip=131.107.16.142
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=mail1.microsoft.com | ip=131.107.115.212
+2025-07-25 12:29:34 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=mail2.microsoft.com | ip=131.107.115.215
+2025-07-25 12:29:35 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=search.microsoft.com | ip=92.122.166.121
+2025-07-25 12:29:40 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS progress | completed=50 | total=99 | found=33
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=source.microsoft.com | ip=141.193.213.11
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=build.microsoft.com | ip=20.119.8.36
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS resolved | subdomain=nexus.microsoft.com | ip=20.15.133.131
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [DNSBruteForce] DNS BruteForce enumeration completed | tested=99 | found=36
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Engine completed | engine=dns | found=36
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] Enumeration completed successfully | total_found=36 | time_elapsed=40.49948763847351
+2025-07-25 12:29:41 | INFO     | Sublist3r_Enhanced | _log_with_context:301 | [Main] SUCCESS: Session completed | subdomains_found=36 | total_logs=123 | errors=0

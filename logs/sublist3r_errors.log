@@ -1,0 +1,92 @@
+2025-07-25 08:43:09 | ERROR    | TestSecurity | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATTERN - Dangerous pattern in domain | event_type=DANGEROUS_PATTERN | domain=../etc/passwd | pattern=\.\.[/\\]
+2025-07-25 08:43:09 | ERROR    | TestSecurity | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATH - Dangerous pattern in path | event_type=DANGEROUS_PATH | path=../etc/passwd
+2025-07-25 08:45:15 | WARNING  | TestSublist3r | _log_with_context:301 | This is a warning message
+2025-07-25 08:45:15 | ERROR    | TestSublist3r | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATH - Dangerous pattern in path | event_type=DANGEROUS_PATH | path=../etc/passwd
+2025-07-25 09:06:13 | ERROR    | SystemTest | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATTERN - Dangerous pattern in domain | event_type=DANGEROUS_PATTERN | domain=../etc/passwd | pattern=\.\.[/\\]
+2025-07-25 09:06:13 | ERROR    | SystemTest | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: DANGEROUS_PATH - Dangerous pattern in path | event_type=DANGEROUS_PATH | path=domain;rm -rf /
+2025-07-25 09:14:18 | ERROR    | TestDebug | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 09:23:31 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 09:23:31 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Main] Domain validation failed | domain=example.com | error=Domain is blocked for security reasons
+2025-07-25 11:54:15 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 11:54:15 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Main] Domain validation failed | domain=example.com | error=Domain is blocked for security reasons
+2025-07-25 11:54:44 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=1 | error='domain'
+2025-07-25 11:54:46 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=2 | error='domain'
+2025-07-25 11:54:49 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=3 | error='domain'
+2025-07-25 11:54:53 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=4 | error='domain'
+2025-07-25 11:54:53 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] All request attempts failed | retries=3 | last_error='domain'
+2025-07-25 11:55:09 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=1 | error='domain'
+2025-07-25 11:55:10 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=2 | error='domain'
+2025-07-25 11:55:12 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=3 | error='domain'
+2025-07-25 11:55:16 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=4 | error='domain'
+2025-07-25 11:55:16 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] All request attempts failed | retries=3 | last_error='domain'
+2025-07-25 11:55:41 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=1 | error='domain'
+2025-07-25 11:55:42 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=2 | error='domain'
+2025-07-25 11:55:44 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=3 | error='domain'
+2025-07-25 11:55:49 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] Request failed | attempt=4 | error='domain'
+2025-07-25 11:55:49 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Google] All request attempts failed | retries=3 | last_error='domain'
+2025-07-25 11:57:58 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [Google] Possible blocking detected | indicator=robot
+2025-07-25 11:58:20 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [SecurityValidator] SECURITY_EVENT: BLOCKED_DOMAIN - Blocked domain attempted | event_type=BLOCKED_DOMAIN | domain=example.com
+2025-07-25 11:58:20 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [Main] Domain validation failed | domain=example.com | error=Domain is blocked for security reasons
+2025-07-25 11:59:07 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [Google] Possible blocking detected | indicator=bot
+2025-07-25 12:00:07 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [Google] Possible blocking detected | indicator=bot
+2025-07-25 12:07:00 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Playwright not available
+2025-07-25 12:10:30 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Possible blocking detected | indicator=captcha
+2025-07-25 12:11:02 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [GooglePlaywright] Possible blocking detected | indicator=please try again
+2025-07-25 12:18:37 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=502
+2025-07-25 12:18:37 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:19:56 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:19:56 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:20:26 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:20:26 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:20:56 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:20:56 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:23:27 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:23:27 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:23:27 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=502
+2025-07-25 12:23:27 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:27:36 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=404
+2025-07-25 12:27:36 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:29:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=503
+2025-07-25 12:29:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 12:29:32 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=503
+2025-07-25 12:29:32 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=503
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [SecurityTrails] SecurityTrails skipped - no API key
+2025-07-25 12:29:34 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [VirusTotal] VirusTotal skipped - no API key
+2025-07-25 12:57:46 | ERROR    | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 12:57:46 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:03:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] API error | status_code=502
+2025-07-25 13:03:31 | WARNING  | Sublist3r_Enhanced | _log_with_context:301 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:31:58 | ERROR    | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 13:31:58 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=404
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=502
+2025-07-25 13:32:13 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:39:58 | ERROR    | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 13:39:58 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:39:58 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=502
+2025-07-25 13:39:58 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:39:59 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] API error | status_code=502
+2025-07-25 13:39:59 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.%.{domain}&output=json
+2025-07-25 13:45:44 | ERROR    | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] Certificate Transparency request failed | error=HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=30)
+2025-07-25 13:45:44 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:46:14 | WARNING  | JARVIS_Intelligence | _log_with_context:326 | [GooglePlaywright] Possible blocking detected | indicator=please try again
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] API error | status_code=404
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q=%.{domain}&output=json
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] API error | status_code=404
+2025-07-25 13:53:41 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [CertificateTransparency] No data from endpoint | endpoint=https://crt.sh/?q={domain}&output=json
+2025-07-25 13:54:00 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [GooglePlaywright] Possible blocking detected | indicator=please try again
+2025-07-25 13:54:00 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Enumeration failed | error=generate_query must be implemented by subclass
+2025-07-25 13:54:00 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Enumeration failed | error=generate_query must be implemented by subclass
+2025-07-25 13:54:00 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [VirusTotal] VirusTotal skipped - no API key
+2025-07-25 13:54:00 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [SecurityTrails] SecurityTrails skipped - no API key
+2025-07-25 13:56:31 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [WaybackMachine] Enumeration failed | error=generate_query() missing 1 required positional argument: 'subdomain'
+2025-07-25 13:56:31 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] Enumeration failed | error=generate_query() missing 1 required positional argument: 'subdomain'
+2025-07-25 13:57:48 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=wayback | error='WaybackMachineEnum' object has no attribute 'enumerate'
+2025-07-25 13:59:38 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=wayback | error='WaybackMachineEnum' object has no attribute 'get_metrics'
+2025-07-25 14:00:44 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=wayback | error='WaybackMachineEnum' object has no attribute 'metrics'
+2025-07-25 14:00:44 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] ThreatCrowd request failed | error=HTTPSConnectionPool(host='threatcrowd.org', port=443): Max retries exceeded with url: /searchApi/v2/domain/report/?domain=thales.com (Caused by SSLError(CertificateError("hostname 'threatcrowd.org' doesn't match '*.otxb.io'")))
+2025-07-25 14:00:44 | WARNING  | JARVIS_Intelligence | _log_with_context:391 | [ThreatCrowd] No valid data from ThreatCrowd | response=None
+2025-07-25 14:00:44 | ERROR    | JARVIS_Intelligence | _log_with_context:391 | [Main] Engine failed | engine=threatcrowd | error='ThreatCrowdEnum' object has no attribute 'metrics'

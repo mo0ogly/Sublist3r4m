@@ -1,0 +1,354 @@
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpqnrf33hv/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_8ea9fd49
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpoyva22k6/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_fbd02770
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmp6xs4vy2b/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_8e0323b0
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmp2t7iqett/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_b5f3fba4
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpkte0gy1l/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_37aea52b
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpa06b8f7m/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_830edb26
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpbc1w9w2z/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_17fe557b
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Performing fuzzy search | domain=test.com | actual_owner=Microsoft Corporatio | expected_owner=Microsoft Corp
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Similarity computed | str1=Microsoft Corporatio | str2=Microsoft Corp | global_score=0.6343993316624895 | quality=fair
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Fuzzy search stored | query=Microsoft Corporatio | score=0.6343993316624895
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Fuzzy search completed | domain=test.com | match_score=0.6343993316624895 | is_match=True
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpi454fk39/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_48388c75
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Performing WHOIS lookup | domain=example.com
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmp6lhx9rpv/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_f90e9147
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Processing domain | domain=test.com
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner info cached | domain=test.com
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domain processed via WHOIS | domain=test.com | found_owner=True
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpv56qvm61/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_7c647cc4
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Reading domains file | filename=/tmp/tmpv56qvm61/test_domains.txt
+2025-07-25 08:42:24 | WARNING  | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Invalid domain skipped | line_num=5 | domain=invalid..domain
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domains file read successfully | filename=/tmp/tmpv56qvm61/test_domains.txt | domains_count=4
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpqenp2367/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_5d587e7d
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Reading expected owners file | filename=/tmp/tmpqenp2367/test_owners.csv
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Expected owners file read successfully | filename=/tmp/tmpqenp2367/test_owners.csv | owners_count=2
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpd_qalc8d/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_91f9ab23
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Reading expected owners file | filename=/tmp/tmpd_qalc8d/test_owners.txt
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Expected owners file read successfully | filename=/tmp/tmpd_qalc8d/test_owners.txt | owners_count=3
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpxg7n9eg8/test_cache.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_446a04a1
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/sublist3r_tests_onov1gec/cache/integration_test.db
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084224_c03a1473
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Starting owner research from file | input_file=/tmp/sublist3r_tests_onov1gec/test_domains.txt | expected_owners=/tmp/sublist3r_tests_onov1gec/test_owners.csv
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Reading domains file | filename=/tmp/sublist3r_tests_onov1gec/test_domains.txt
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domains file read successfully | filename=/tmp/sublist3r_tests_onov1gec/test_domains.txt | domains_count=4
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Reading expected owners file | filename=/tmp/sublist3r_tests_onov1gec/test_owners.csv
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Expected owners file read successfully | filename=/tmp/sublist3r_tests_onov1gec/test_owners.csv | owners_count=4
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Starting threaded domain processing | domains_count=4 | max_threads=2
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domain worker started | thread_id=140304049325824
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Processing domain | domain=example.com
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domain worker started | thread_id=140304040933120
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Processing domain | domain=test.example.com
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner info cached | domain=test.example.com
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Cache storage failed | domain=example.com | error=cannot start a transaction within a transaction
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domain processed via WHOIS | domain=test.example.com | found_owner=True
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domain processed via WHOIS | domain=example.com | found_owner=True
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Performing fuzzy search | domain=test.example.com | actual_owner=Test Corporation | expected_owner=Test Company Ltd
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Performing fuzzy search | domain=example.com | actual_owner=Test Corporation | expected_owner=Example Corporation
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Similarity computed | str1=Test Corporation | str2=Example Corporation | global_score=0.3562953170471967 | quality=very_poor
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Fuzzy search stored | query=Test Corporation | score=0.3562953170471967
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Fuzzy search completed | domain=example.com | match_score=0.3562953170471967 | is_match=False
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Similarity computed | str1=Test Corporation | str2=Test Company Ltd | global_score=0.420342932429889 | quality=poor
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Fuzzy search stored | query=Test Corporation | score=0.420342932429889
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Fuzzy search completed | domain=test.example.com | match_score=0.420342932429889 | is_match=False
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Processing domain | domain=subdomain.example.org
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Processing domain | domain=demo.test.net
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner info cached | domain=subdomain.example.org
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domain processed via WHOIS | domain=subdomain.example.org | found_owner=True
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Performing fuzzy search | domain=subdomain.example.org | actual_owner=Test Corporation | expected_owner=Demo Organization
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Similarity computed | str1=Test Corporation | str2=Demo Organization | global_score=0.25103539597657243 | quality=very_poor
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner info cached | domain=demo.test.net
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domain processed via WHOIS | domain=demo.test.net | found_owner=True
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Performing fuzzy search | domain=demo.test.net | actual_owner=Test Corporation | expected_owner=Network Solutions In
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Fuzzy search stored | query=Test Corporation | score=0.25103539597657243
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Similarity computed | str1=Test Corporation | str2=Network Solutions In | global_score=0.20908952737524164 | quality=very_poor
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Fuzzy search completed | domain=subdomain.example.org | match_score=0.25103539597657243 | is_match=False
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Fuzzy search stored | query=Test Corporation | score=0.20908952737524164
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Fuzzy search completed | domain=demo.test.net | match_score=0.20908952737524164 | is_match=False
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domain worker completed | thread_id=140304049325824
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Domain worker completed | thread_id=140304040933120
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Threaded processing completed | processed=4 | fuzzy_matches=4
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Exporting results | output_file=/tmp/sublist3r_tests_onov1gec/test_output.json | format=json
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Results exported successfully | output_file=/tmp/sublist3r_tests_onov1gec/test_output.json
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Metrics stored | session_id=owner_research_20250725_084224_c03a1473
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Session metrics finalized | session_id=owner_research_20250725_084224_c03a1473
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Owner research completed | domains_processed=0 | successful_matches=0
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:24 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:24 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:24 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:25 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:42:25 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:42:25 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:42:25 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:42:25 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:43:18 | INFO     | TestFuzzyMatcher | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:43:39 | INFO     | TestOwnerDB | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:43:56 | INFO     | TestOwnerDB | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:43:56 | INFO     | TestOwnerDB | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpmhgagrr6/test_owner.db
+2025-07-25 08:44:06 | INFO     | TestOwnerDB | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:44:06 | INFO     | TestOwnerDB | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmp09snuaym/test_owner.db
+2025-07-25 08:44:45 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:44:45 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:44:45 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:44:45 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmp4b7w2ruh/test_engine.db
+2025-07-25 08:44:45 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084445_b4d25f72
+2025-07-25 08:44:45 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:44:45 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:44:45 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:44:45 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:44:45 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:45:03 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 08:45:03 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 08:45:03 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 08:45:03 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmp4r04y9ja/test_engine.db
+2025-07-25 08:45:03 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_084503_d0a7eff4
+2025-07-25 08:45:03 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Performing fuzzy search | domain=google.com | actual_owner=Google LLC | expected_owner=google llc
+2025-07-25 08:45:03 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Similarity computed | str1=Google LLC | str2=google llc | global_score=1.0 | quality=excellent
+2025-07-25 08:45:03 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Fuzzy search stored | query=Google LLC | score=1.0
+2025-07-25 08:45:03 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Fuzzy search completed | domain=google.com | match_score=1.0 | is_match=True
+2025-07-25 08:45:03 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:45:03 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:45:03 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:45:03 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:45:03 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 08:45:03 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 08:45:03 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 08:45:03 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 08:45:03 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=owner_cache.db
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_090613_b2baea5c
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:06:13 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpgw9_kosn/thread_test.db
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmpgw9_kosn/thread_test.db
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_090613_8c353131
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmppt5cr270/thread_test.db
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_090613_8c353131
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=/tmp/tmppt5cr270/thread_test.db
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_090613_2f8c3a27
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_090613_2f8c3a27
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:06:13 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:06:13 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:06:13 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:06:13 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:06:13 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:06:13 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:06:13 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:06:13 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:06:13 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:14:18 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerLogger] AdvancedOwnerLogger initialized
+2025-07-25 09:14:18 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] FuzzyMatcher initialized
+2025-07-25 09:14:18 | INFO     | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Algorithms configured | enabled_algos=8
+2025-07-25 09:14:18 | INFO     | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Owner database initialized | db_path=owner_cache.db
+2025-07-25 09:14:18 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine initialized | session_id=owner_research_20250725_091418_36ee7740
+2025-07-25 09:14:18 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Performing fuzzy search | domain=test.com | actual_owner=Test Corp | expected_owner=test corporation
+2025-07-25 09:14:18 | DEBUG    | OwnerResearch | _log_with_context:172 | [FuzzyMatcher] Similarity computed | str1=Test Corp | str2=test corporation | global_score=0.5675136054421769 | quality=poor
+2025-07-25 09:14:18 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Fuzzy search stored | query=Test Corp | score=0.5675136054421769
+2025-07-25 09:14:18 | DEBUG    | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Fuzzy search completed | domain=test.com | match_score=0.5675136054421769 | is_match=False
+2025-07-25 09:14:18 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:14:18 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 09:14:18 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:14:18 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:14:18 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Closing Advanced Owner Research Engine
+2025-07-25 09:14:18 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
+2025-07-25 09:14:18 | ERROR    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database cleanup failed | error='NoneType' object has no attribute 'cursor'
+2025-07-25 09:14:18 | INFO     | OwnerResearch | _log_with_context:172 | [AdvancedOwnerResearchEngine] Advanced Owner Research Engine closed successfully
+2025-07-25 09:14:18 | DEBUG    | OwnerResearch | _log_with_context:172 | [OwnerDatabase] Database connection closed
