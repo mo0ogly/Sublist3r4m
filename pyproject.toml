@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sublist3r4m"
+version = "1.0.0"
+description = "Subdomain enumeration tool for penetration testers and security researchers"
+requires-python = ">=3.9"
+license = "GPL-2.0-only"
+authors = [
+    {name = "m00gly"},
+]
+keywords = ["subdomain", "dns", "enumeration", "osint", "security", "pentesting"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+]
+dependencies = [
+    "dnspython",
+    "requests",
+]
+
+[project.optional-dependencies]
+async = [
+    "aiohttp>=3.9",
+]
+dev = [
+    "jsonschema",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+]
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+]
+
+[project.urls]
+Homepage = "https://github.com/mo0ogly/Sublist3r4m"
+Repository = "https://github.com/mo0ogly/Sublist3r4m"
+Issues = "https://github.com/mo0ogly/Sublist3r4m/issues"
+
+[project.scripts]
+sublist3r4m = "sublist3r:interactive"
+
+[tool.setuptools]
+py-modules = ["sublist3r", "jarvis_intelligence", "owner_research_engine", "async_engines"]
+packages = ["subbrute", "jarvis"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

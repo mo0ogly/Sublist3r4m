@@ -1,183 +1,167 @@
-## About Sublist3r 
+# Sublist3r4m
 
-Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines such as Google, Yahoo, Bing, Baidu and Ask. Sublist3r also enumerates subdomains using Netcraft, Virustotal, ThreatCrowd, DNSdumpster and ReverseDNS.
+[![CI](https://github.com/mo0ogly/Sublist3r4m/actions/workflows/ci.yml/badge.svg)](https://github.com/mo0ogly/Sublist3r4m/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: GPL v2](https://img.shields.io/badge/license-GPL--2.0-green.svg)](LICENSE)
+[![Code style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://docs.astral.sh/ruff/)
 
-[subbrute](https://github.com/TheRook/subbrute) was integrated with Sublist3r to increase the possibility of finding more subdomains using bruteforce with an improved wordlist. The credit goes to TheRook who is the author of subbrute.
+Subdomain enumeration tool for penetration testers and security researchers.
 
-## Screenshots
+Fork of [aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r) with enhanced modules for intelligence gathering, owner research, and advanced GUI.
 
-![Sublist3r](http://www.secgeek.net/images/Sublist3r.png "Sublist3r in action")
+## Features
 
+- **Multi-engine subdomain enumeration** via Google, Yahoo, Bing, Baidu, Ask, Netcraft, VirusTotal, ThreatCrowd, DNSdumpster, crt.sh
+- **JARVIS Intelligence Scanner** with Certificate Transparency, SecurityTrails, retry logic, rate limiting, and multi-format export
+- **Owner Research Engine** with fuzzy matching (Levenshtein, Soundex, Jaro-Winkler), WHOIS lookups, and SQLite caching
+- **DNS bruteforce** via integrated subbrute module with optimized wordlists
+- **Port scanning** on discovered subdomains
+- **Advanced GUI** (Tkinter) with logging, filtering, statistics, and export
+- **Multi-format export**: JSON, CSV, XML, HTML, TXT
 
 ## Installation
 
-```
-git clone https://github.com/aboul3la/Sublist3r.git
+**Requires Python 3.9+**
+
+```bash
+git clone https://github.com/mo0ogly/Sublist3r4m.git
+cd Sublist3r4m
+pip install -e ".[dev]"
 ```
 
-## Recommended Python Version:
+Or install runtime dependencies only:
 
-Sublist3r currently supports **Python 2** and **Python 3**.
-
-* The recommended version for Python 2 is **2.7.x**
-* The recommended version for Python 3 is **3.4.x**
-
-## Dependencies:
-
-Sublist3r depends on the `requests`, `dnspython` and `argparse` python modules.
-
-These dependencies can be installed using the requirements file:
-
-- Installation on Windows:
-```
-c:\python27\python.exe -m pip install -r requirements.txt
-```
-- Installation on Linux
-```
-sudo pip install -r requirements.txt
-```
-
-Alternatively, each module can be installed independently as shown below.
-
-#### Requests Module (http://docs.python-requests.org/en/latest/)
-
-- Install for Windows:
-```
-c:\python27\python.exe -m pip install requests
-```
-
-- Install for Ubuntu/Debian:
-```
-sudo apt-get install python-requests
-```
-
-- Install for Centos/Redhat:
-```
-sudo yum install python-requests
-```
-
-- Install using pip on Linux:
-```
-sudo pip install requests
-```
-
-#### dnspython Module (http://www.dnspython.org/)
-
-- Install for Windows:
-```
-c:\python27\python.exe -m pip install dnspython
-```
-
-- Install for Ubuntu/Debian:
-```
-sudo apt-get install python-dnspython
-```
-
-- Install using pip:
-```
-sudo pip install dnspython
-```
-
-#### argparse Module
-
-- Install for Ubuntu/Debian:
-```
-sudo apt-get install python-argparse
-```
-
-- Install for Centos/Redhat:
-```
-sudo yum install python-argparse
-``` 
-
-- Install using pip:
-```
-sudo pip install argparse
-```
-
-**for coloring in windows install the following libraries**
-```
-c:\python27\python.exe -m pip install win_unicode_console colorama
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
 
-Short Form    | Long Form     | Description
-------------- | ------------- |-------------
--d            | --domain      | Domain name to enumerate subdomains of
--b            | --bruteforce  | Enable the subbrute bruteforce module
--p            | --ports       | Scan the found subdomains against specific tcp ports
--v            | --verbose     | Enable the verbose mode and display results in realtime
--t            | --threads     | Number of threads to use for subbrute bruteforce
--e            | --engines     | Specify a comma-separated list of search engines
--o            | --output      | Save the results to text file
--h            | --help        | show the help message and exit
+### Basic subdomain enumeration
 
-### Examples
+```bash
+python sublist3r.py -d example.com
+```
 
-* To list all the basic options and switches use -h switch:
+### With bruteforce and port scanning
 
-```python sublist3r.py -h```
+```bash
+python sublist3r.py -d example.com -b -p 80,443
+```
 
-* To enumerate subdomains of specific domain:
+### Verbose mode (real-time results)
 
-``python sublist3r.py -d example.com``
+```bash
+python sublist3r.py -v -d example.com
+```
 
-* To enumerate subdomains of specific domain and show only subdomains which have open ports 80 and 443 :
+### Use specific engines
 
-``python sublist3r.py -d example.com -p 80,443``
+```bash
+python sublist3r.py -e google,yahoo,virustotal -d example.com
+```
 
-* To enumerate subdomains of specific domain and show the results in realtime:
+### Save results to file
 
-``python sublist3r.py -v -d example.com``
+```bash
+python sublist3r.py -d example.com -o results.txt
+```
 
-* To enumerate subdomains and enable the bruteforce module:
+## CLI Options
 
-``python sublist3r.py -b -d example.com``
+| Flag | Long Form       | Description                                      |
+|------|-----------------|--------------------------------------------------|
+| `-d` | `--domain`      | Target domain to enumerate                       |
+| `-b` | `--bruteforce`  | Enable subbrute bruteforce module                |
+| `-p` | `--ports`       | Scan specific TCP ports (comma-separated)        |
+| `-v` | `--verbose`     | Display results in real-time                     |
+| `-t` | `--threads`     | Number of threads for bruteforce                 |
+| `-e` | `--engines`     | Specific engines (comma-separated)               |
+| `-o` | `--output`      | Save results to file                             |
 
-* To enumerate subdomains and use specific engines such Google, Yahoo and Virustotal engines
-
-``python sublist3r.py -e google,yahoo,virustotal -d example.com``
-
-
-## Using Sublist3r as a module in your python scripts
-
-**Example**
+## Using as a Python Module
 
 ```python
-import sublist3r 
-subdomains = sublist3r.main(domain, no_threads, savefile, ports, silent, verbose, enable_bruteforce, engines)
-```
-The main function will return a set of unique subdomains found by Sublist3r
+import sublist3r
 
-**Function Usage:**
-* **domain**: The domain you want to enumerate subdomains of.
-* **savefile**: save the output into text file.
-* **ports**: specify a comma-sperated list of the tcp ports to scan.
-* **silent**: set sublist3r to work in silent mode during the execution (helpful when you don't need a lot of noise).
-* **verbose**: display the found subdomains in real time.
-* **enable_bruteforce**: enable the bruteforce module.
-* **engines**: (Optional) to choose specific engines.
-
-Example to enumerate subdomains of Yahoo.com:
-```python
-import sublist3r 
-subdomains = sublist3r.main('yahoo.com', 40, 'yahoo_subdomains.txt', ports= None, silent=False, verbose= False, enable_bruteforce= False, engines=None)
+subdomains = sublist3r.main(
+    domain='example.com',
+    no_threads=40,
+    savefile='output.txt',
+    ports=None,
+    silent=False,
+    verbose=False,
+    enable_bruteforce=False,
+    engines=None
+)
 ```
+
+## Additional Modules
+
+### JARVIS Intelligence Scanner
+
+```bash
+python jarvis_intelligence.py -d example.com
+```
+
+Enhanced enumeration with Certificate Transparency logs, API integrations, and multi-format export.
+
+### Owner Research Engine
+
+```bash
+python owner_research_engine.py --input domains.txt --output results.json
+```
+
+Domain owner research with fuzzy matching, WHOIS lookups, and SQLite caching.
+
+### SubBrute GUI
+
+```bash
+python subbrute/launch_advanced_gui.py
+```
+
+Advanced Tkinter GUI for DNS bruteforce with real-time logging and statistics.
+
+## API Configuration
+
+Copy the example configuration and add your API keys:
+
+```bash
+cp config.json.example config.json
+```
+
+Supported APIs: Shodan, Censys, SecurityTrails, VirusTotal, PassiveTotal/RiskIQ.
+
+## Development
+
+```bash
+# Install dev dependencies
+make install
+
+# Run tests
+make test
+
+# Run linter
+make lint
+
+# Auto-fix lint errors
+make lint-fix
+```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for vulnerability reporting.
 
 ## License
 
-Sublist3r is licensed under the GNU GPL license. take a look at the [LICENSE](https://github.com/aboul3la/Sublist3r/blob/master/LICENSE) for more information.
-
+GNU General Public License v2.0. See [LICENSE](LICENSE).
 
 ## Credits
 
-* [TheRook](https://github.com/TheRook) - The bruteforce module was based on his script **subbrute**. 
-* [Bitquark](https://github.com/bitquark) - The Subbrute's wordlist was based on his research **dnspop**. 
-
-## Thanks
-
-* Special Thanks to [Ibrahim Mosaad](https://twitter.com/ibrahim_mosaad) for his great contributions that helped in improving the tool.
-
-## Version
-**Current version is 1.0**
+- Original [Sublist3r](https://github.com/aboul3la/Sublist3r) by [Ahmed Aboul-Ela](https://github.com/aboul3la)
+- [subbrute](https://github.com/TheRook/subbrute) by [TheRook](https://github.com/TheRook)
+- [dnspop](https://github.com/bitquark/dnspop) wordlist by [Bitquark](https://github.com/bitquark)

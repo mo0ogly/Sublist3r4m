@@ -17,60 +17,57 @@ Fonctionnalités complètes:
 - Statistiques en temps réel avec graphiques
 """
 
-import sys
 import os
+import sys
 import traceback
 from datetime import datetime
+
 
 def check_dependencies():
     """Vérifie toutes les dépendances requises."""
     print("🔍 Vérification des dépendances...")
-    
+
     missing_deps = []
-    
+
     # Vérifier Python version
     if sys.version_info < (2, 7):
         missing_deps.append("Python 2.7+ ou Python 3.x requis")
-    
+
     # Vérifier Tkinter
     try:
-        if sys.version_info[0] >= 3:
-            import tkinter
-            import tkinter.ttk
-        else:
-            import Tkinter as tkinter
-            import ttk
+        import tkinter  # noqa: F401
+        import tkinter.ttk  # noqa: F401
         print("✅ Tkinter disponible")
     except ImportError as e:
         missing_deps.append("Tkinter: {}".format(str(e)))
-    
+
     # Vérifier les modules standard
     required_modules = [
-        'threading', 'time', 'json', 'csv', 'datetime', 
+        'threading', 'time', 'json', 'csv', 'datetime',
         'collections', 'logging', 'tempfile', 'socket',
         'subprocess', 'platform', 'hashlib', 're'
     ]
-    
+
     for module in required_modules:
         try:
             __import__(module)
         except ImportError as e:
             missing_deps.append("Module {}: {}".format(module, str(e)))
-    
+
     # Vérifier les handlers de logging
     try:
-        from logging.handlers import RotatingFileHandler, TimedRotatingFileHandler
+        from logging.handlers import RotatingFileHandler, TimedRotatingFileHandler  # noqa: F401
         print("✅ Handlers de logging avancés disponibles")
     except ImportError as e:
         missing_deps.append("Logging handlers: {}".format(str(e)))
-    
+
     # Vérifier xml.etree.ElementTree
     try:
-        import xml.etree.ElementTree as ET
+        import xml.etree.ElementTree  # noqa: F401
         print("✅ Support XML disponible")
     except ImportError as e:
         missing_deps.append("XML support: {}".format(str(e)))
-    
+
     return missing_deps
 
 def show_error_message(title, message):
@@ -79,14 +76,14 @@ def show_error_message(title, message):
     print("=" * 60)
     print(message)
     print("=" * 60)
-    
+
     # Essayer d'afficher une boîte de dialogue si possible
     try:
         if sys.version_info[0] >= 3:
             import tkinter.messagebox as messagebox
         else:
             import tkMessageBox as messagebox
-        
+
         root = None
         if sys.version_info[0] >= 3:
             import tkinter
@@ -94,11 +91,11 @@ def show_error_message(title, message):
         else:
             import Tkinter
             root = Tkinter.Tk()
-        
+
         root.withdraw()
         messagebox.showerror(title, message)
         root.destroy()
-    except:
+    except Exception:
         pass
 
 def create_directories():
@@ -117,89 +114,85 @@ def create_directories():
 def check_files():
     """Vérifie la présence des fichiers requis."""
     print("🔍 Vérification des fichiers...")
-    
+
     required_files = [
         'subbrute.py',
         'names.txt',
         'resolvers.txt'
     ]
-    
+
     optional_files = [
         'subbrute_gui.py',
         'gui_simple.py',
         'subbrute_gui_advanced.py'
     ]
-    
+
     missing_required = []
     missing_optional = []
-    
+
     for file_path in required_files:
         if not os.path.exists(file_path):
             missing_required.append(file_path)
         else:
             print("✅ Fichier trouvé: {}".format(file_path))
-    
+
     for file_path in optional_files:
         if not os.path.exists(file_path):
             missing_optional.append(file_path)
         else:
             print("✅ Fichier trouvé: {}".format(file_path))
-    
+
     return missing_required, missing_optional
 
 def launch_gui_version(version="advanced"):
     """Lance la version spécifiée de l'interface."""
     try:
         print("🚀 Lancement de SubBrute GUI version '{}'...".format(version))
-        
+
         if version == "advanced":
             # Lancer la version avancée complète
             try:
                 print("📊 Chargement des composants avancés...")
-                
+
                 # Importer et lancer
                 import subbrute_gui_advanced
                 return subbrute_gui_advanced.main_advanced()
-                
+
             except ImportError as e:
                 print("⚠️  Version avancée non disponible: {}".format(str(e)))
                 print("📱 Basculement vers la version standard...")
                 version = "standard"
-        
+
         if version == "standard":
             # Lancer la version standard
             try:
+                import tkinter as tk
+
                 import subbrute_gui
-                root = None
-                if sys.version_info[0] >= 3:
-                    import tkinter as tk
-                    root = tk.Tk()
-                else:
-                    import Tkinter as tk
-                    root = tk.Tk()
-                
-                app = subbrute_gui.SubBruteGUI(root)
+                root = tk.Tk()
+
+                subbrute_gui.SubBruteGUI(root)
                 root.mainloop()
                 return 0
-                
+
             except ImportError as e:
                 print("⚠️  Version standard non disponible: {}".format(str(e)))
                 print("📱 Basculement vers la version simple...")
                 version = "simple"
-        
+
         if version == "simple":
             # Lancer la version simple
             try:
                 import gui_simple
                 return gui_simple.main()
-                
+
             except ImportError as e:
                 print("❌ Aucune version GUI disponible: {}".format(str(e)))
                 return 1
-        
+
         print("❌ Version '{}' inconnue".format(version))
         return 1
-        
+
     except Exception as e:
         print("❌ Erreur lors du lancement: {}".format(str(e)))
         print("Traceback: {}".format(traceback.format_exc()))
@@ -254,10 +247,10 @@ def main():
         print("Python version: {}".format(sys.version))
         print("Plateforme: {}".format(sys.platform))
         print()
-        
+
         # Afficher le message de bienvenue
         show_welcome_message()
-        
+
         # Vérifier les dépendances
         missing_deps = check_dependencies()
         if missing_deps:
@@ -267,36 +260,39 @@ def main():
             error_msg += "• CentOS/RHEL: sudo yum install python3-tkinter\\n"
             error_msg += "• Windows: Tkinter inclus avec Python\\n"
             error_msg += "• macOS: brew install python-tk"
-            
+
             show_error_message("Dépendances Manquantes", error_msg)
             return 1
-        
+
         print("✅ Toutes les dépendances sont disponibles\\n")
-        
+
         # Créer les répertoires nécessaires
         if not create_directories():
             print("⚠️  Avertissement: Impossible de créer certains répertoires")
-        
+
         print()
-        
+
         # Vérifier les fichiers
         missing_required, missing_optional = check_files()
-        
+
         if missing_required:
             error_msg = "Fichiers requis manquants:\\n\\n" + "\\n".join(missing_required)
-            error_msg += "\\n\\nAssurez-vous d'être dans le bon répertoire et que tous les fichiers SubBrute sont présents."
-            
+            error_msg += (
+                "\\n\\nAssurez-vous d'être dans le bon répertoire"
+                " et que tous les fichiers SubBrute sont présents."
+            )
+
             show_error_message("Fichiers Manquants", error_msg)
             return 1
-        
+
         if missing_optional:
             print("⚠️  Fichiers optionnels manquants: {}".format(", ".join(missing_optional)))
-        
+
         print("✅ Fichiers requis présents\\n")
-        
+
         # Déterminer la version à lancer
         version = "advanced"
-        
+
         # Permettre de spécifier la version via argument
         if len(sys.argv) > 1:
             if sys.argv[1] in ["--simple", "-s"]:
@@ -323,13 +319,13 @@ La version avancée inclut toutes les fonctionnalités:
 • Statistiques temps réel
 """)
                 return 0
-        
+
         print("🎯 Version sélectionnée: {}".format(version))
         print("🚀 Lancement en cours...\\n")
-        
+
         # Lancer l'interface
         return launch_gui_version(version)
-        
+
     except KeyboardInterrupt:
         print("\\n⏹️  Application interrompue par l'utilisateur")
         return 0

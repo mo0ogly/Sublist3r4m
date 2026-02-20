@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sublist3r4m - Subdomain Enumeration Tool</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --surface: #161b22;
+            --border: #30363d;
+            --text: #c9d1d9;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+            --accent-hover: #79c0ff;
+            --green: #3fb950;
+            --orange: #d29922;
+            --red: #f85149;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+        /* Header */
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 40px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        header h1 span { color: var(--accent); }
+        header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+        .badges { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .badge-green { background: rgba(63,185,80,0.15); color: var(--green); border: 1px solid rgba(63,185,80,0.3); }
+        .badge-blue { background: rgba(88,166,255,0.15); color: var(--accent); border: 1px solid rgba(88,166,255,0.3); }
+        .badge-orange { background: rgba(210,153,34,0.15); color: var(--orange); border: 1px solid rgba(210,153,34,0.3); }
+
+        /* Sections */
+        section { padding: 40px 0; border-bottom: 1px solid var(--border); }
+        section:last-child { border-bottom: none; }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--text);
+        }
+        h2::before {
+            content: '#';
+            color: var(--accent);
+            margin-right: 8px;
+        }
+
+        /* Features grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+        .feature {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .feature h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: var(--accent);
+        }
+        .feature p { color: var(--text-muted); font-size: 0.9rem; }
+
+        /* Code blocks */
+        pre {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+            overflow-x: auto;
+            margin: 12px 0;
+        }
+        code {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+        }
+        .cmd { color: var(--green); }
+        .flag { color: var(--orange); }
+        .comment { color: var(--text-muted); }
+
+        /* Modules */
+        .modules { display: flex; flex-direction: column; gap: 12px; }
+        .module {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .module-name { font-weight: 600; }
+        .module-desc { color: var(--text-muted); font-size: 0.9rem; }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        .btn-primary { background: var(--accent); color: var(--bg); }
+        .btn-primary:hover { background: var(--accent-hover); }
+        .btn-outline {
+            border: 1px solid var(--border);
+            color: var(--text);
+            background: transparent;
+        }
+        .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+        .btn-group { display: flex; gap: 12px; justify-content: center; margin-top: 20px; }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* Table */
+        table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+        th, td {
+            text-align: left;
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border);
+        }
+        th { color: var(--text-muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        td code { color: var(--accent); }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Sublist3r<span>4m</span></h1>
+        <p>Subdomain enumeration tool for penetration testers and security researchers. Powered by OSINT.</p>
+        <div class="badges">
+            <span class="badge badge-green">Python 3.9+</span>
+            <span class="badge badge-blue">GPL-2.0</span>
+            <span class="badge badge-orange">v1.0.0</span>
+        </div>
+        <div class="btn-group">
+            <a href="https://github.com/mo0ogly/Sublist3r4m" class="btn btn-primary">View on GitHub</a>
+            <a href="https://github.com/mo0ogly/Sublist3r4m/releases" class="btn btn-outline">Releases</a>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Multi-Engine Search</h3>
+                <p>Enumerate subdomains via Google, Yahoo, Bing, Baidu, Ask, Netcraft, VirusTotal, ThreatCrowd, DNSdumpster, crt.sh, and more.</p>
+            </div>
+            <div class="feature">
+                <h3>JARVIS Intelligence</h3>
+                <p>Enhanced scanning engine with Certificate Transparency, SecurityTrails, retry logic, rate limiting, and multi-format export.</p>
+            </div>
+            <div class="feature">
+                <h3>DNS Bruteforce</h3>
+                <p>Integrated subbrute module with optimized wordlists and multi-process DNS resolution for fast subdomain discovery.</p>
+            </div>
+            <div class="feature">
+                <h3>Owner Research</h3>
+                <p>Advanced domain owner research with fuzzy matching (Levenshtein, Soundex, Jaro-Winkler), WHOIS lookups, and SQLite caching.</p>
+            </div>
+            <div class="feature">
+                <h3>Port Scanning</h3>
+                <p>Identify open TCP ports on discovered subdomains to map the attack surface.</p>
+            </div>
+            <div class="feature">
+                <h3>GUI Interface</h3>
+                <p>Advanced Tkinter GUI with real-time logging, result filtering, statistics, and multi-format export.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Quick Start</h2>
+        <pre><code><span class="comment"># Clone the repository</span>
+<span class="cmd">git clone</span> https://github.com/mo0ogly/Sublist3r4m.git
+<span class="cmd">cd</span> Sublist3r4m
+
+<span class="comment"># Install dependencies</span>
+<span class="cmd">pip install</span> <span class="flag">-e</span> ".[dev]"
+
+<span class="comment"># Enumerate subdomains</span>
+<span class="cmd">python</span> sublist3r.py <span class="flag">-d</span> example.com
+
+<span class="comment"># With bruteforce and port scanning</span>
+<span class="cmd">python</span> sublist3r.py <span class="flag">-d</span> example.com <span class="flag">-b -p</span> 80,443
+
+<span class="comment"># Run tests</span>
+<span class="cmd">make</span> test</code></pre>
+    </section>
+
+    <section>
+        <h2>CLI Options</h2>
+        <table>
+            <thead>
+                <tr><th>Flag</th><th>Description</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><code>-d</code></td><td>Target domain to enumerate</td></tr>
+                <tr><td><code>-b</code></td><td>Enable bruteforce module</td></tr>
+                <tr><td><code>-p</code></td><td>Scan specific TCP ports (comma-separated)</td></tr>
+                <tr><td><code>-v</code></td><td>Verbose mode (real-time results)</td></tr>
+                <tr><td><code>-t</code></td><td>Number of threads for bruteforce</td></tr>
+                <tr><td><code>-e</code></td><td>Specific engines (comma-separated)</td></tr>
+                <tr><td><code>-o</code></td><td>Output file path</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Modules</h2>
+        <div class="modules">
+            <div class="module">
+                <div>
+                    <div class="module-name">sublist3r.py</div>
+                    <div class="module-desc">Core subdomain enumeration engine</div>
+                </div>
+            </div>
+            <div class="module">
+                <div>
+                    <div class="module-name">jarvis_intelligence.py</div>
+                    <div class="module-desc">JARVIS Intelligence Scanner with CT logs and API integrations</div>
+                </div>
+            </div>
+            <div class="module">
+                <div>
+                    <div class="module-name">owner_research_engine.py</div>
+                    <div class="module-desc">Domain owner research with fuzzy matching</div>
+                </div>
+            </div>
+            <div class="module">
+                <div>
+                    <div class="module-name">subbrute/</div>
+                    <div class="module-desc">DNS bruteforce module with GUI</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <div class="container">
+        <p>Fork of <a href="https://github.com/aboul3la/Sublist3r">aboul3la/Sublist3r</a> &mdash; Enhanced by <a href="https://github.com/mo0ogly">m00gly</a></p>
+        <p>Licensed under GNU GPL v2.0</p>
+    </div>
+</footer>
+
+</body>
+</html>

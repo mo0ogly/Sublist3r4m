@@ -1,0 +1,32 @@
+# Version control
+.git
+.gitignore
+
+# CI/CD and editor configs
+.github
+.vscode
+
+# Caches
+__pycache__
+.ruff_cache
+.pytest_cache
+
+# Build artifacts
+*.egg-info
+
+# Tests and documentation
+tests
+docs
+
+# Logs and databases
+logs
+*.log
+*.db
+
+# Environment and secrets
+.env
+config.json
+
+# Misc
+*.pyc
+*.pyo
